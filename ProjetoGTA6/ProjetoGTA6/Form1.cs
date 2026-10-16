@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ProjetoGTA6
 {
-    public partial class Form1 : Form
+    public partial class FrmDashboard : Form
     {
-        public Form1()
+        public FrmDashboard()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
