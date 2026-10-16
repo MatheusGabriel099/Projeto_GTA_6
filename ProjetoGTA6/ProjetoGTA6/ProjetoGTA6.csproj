@@ -81,6 +81,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.ico" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\gta6logo.jpeg" />
   </ItemGroup>
   <ItemGroup>
