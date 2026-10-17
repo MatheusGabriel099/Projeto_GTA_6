@@ -29,65 +29,67 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDashboard));
-            this.progressBar2 = new System.Windows.Forms.ProgressBar();
-            this.label3 = new System.Windows.Forms.Label();
-            this.progressBar3 = new System.Windows.Forms.ProgressBar();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.label4 = new System.Windows.Forms.Label();
+            this.PrgMundoAberto = new System.Windows.Forms.ProgressBar();
+            this.LblMotorGrafico = new System.Windows.Forms.Label();
+            this.PrgMotorGrafico = new System.Windows.Forms.ProgressBar();
+            this.PrgServidores = new System.Windows.Forms.ProgressBar();
+            this.LblMundoAberto = new System.Windows.Forms.Label();
             this.LblTitulo = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.LblServidores = new System.Windows.Forms.Label();
+            this.GrpStatusSistema = new System.Windows.Forms.GroupBox();
+            this.BtnCarregarAssets = new System.Windows.Forms.Button();
             this.BtnSimularConexao = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.groupBox1.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.PnlHeader = new System.Windows.Forms.Panel();
+            this.GrpStatusSistemas = new System.Windows.Forms.GroupBox();
+            this.GrpStatusSistema.SuspendLayout();
+            this.PnlHeader.SuspendLayout();
+            this.GrpStatusSistemas.SuspendLayout();
             this.SuspendLayout();
             // 
-            // progressBar2
+            // PrgMundoAberto
             // 
-            this.progressBar2.Location = new System.Drawing.Point(36, 245);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(216, 23);
-            this.progressBar2.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-            this.progressBar2.TabIndex = 3;
+            this.PrgMundoAberto.Location = new System.Drawing.Point(27, 137);
+            this.PrgMundoAberto.Name = "PrgMundoAberto";
+            this.PrgMundoAberto.Size = new System.Drawing.Size(168, 23);
+            this.PrgMundoAberto.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.PrgMundoAberto.TabIndex = 3;
             // 
-            // label3
+            // LblMotorGrafico
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(478, 117);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(181, 18);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Motor Gráfico (RAGE 9.0)";
+            this.LblMotorGrafico.AutoSize = true;
+            this.LblMotorGrafico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMotorGrafico.Location = new System.Drawing.Point(241, 34);
+            this.LblMotorGrafico.Name = "LblMotorGrafico";
+            this.LblMotorGrafico.Size = new System.Drawing.Size(145, 15);
+            this.LblMotorGrafico.TabIndex = 6;
+            this.LblMotorGrafico.Text = "Motor Gráfico (RAGE 9.0)";
             // 
-            // progressBar3
+            // PrgMotorGrafico
             // 
-            this.progressBar3.Location = new System.Drawing.Point(467, 145);
-            this.progressBar3.Name = "progressBar3";
-            this.progressBar3.Size = new System.Drawing.Size(216, 23);
-            this.progressBar3.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-            this.progressBar3.TabIndex = 4;
+            this.PrgMotorGrafico.Location = new System.Drawing.Point(234, 58);
+            this.PrgMotorGrafico.Name = "PrgMotorGrafico";
+            this.PrgMotorGrafico.Size = new System.Drawing.Size(168, 23);
+            this.PrgMotorGrafico.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.PrgMotorGrafico.TabIndex = 4;
             // 
-            // progressBar1
+            // PrgServidores
             // 
-            this.progressBar1.Location = new System.Drawing.Point(36, 145);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(216, 23);
-            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-            this.progressBar1.TabIndex = 2;
-            this.progressBar1.Value = 50;
+            this.PrgServidores.Location = new System.Drawing.Point(27, 58);
+            this.PrgServidores.Name = "PrgServidores";
+            this.PrgServidores.Size = new System.Drawing.Size(168, 23);
+            this.PrgServidores.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.PrgServidores.TabIndex = 2;
+            this.PrgServidores.Value = 50;
             // 
-            // label4
+            // LblMundoAberto
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(53, 224);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(172, 18);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Mundo Aberto (Vice City)";
+            this.LblMundoAberto.AutoSize = true;
+            this.LblMundoAberto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblMundoAberto.Location = new System.Drawing.Point(31, 116);
+            this.LblMundoAberto.Name = "LblMundoAberto";
+            this.LblMundoAberto.Size = new System.Drawing.Size(140, 15);
+            this.LblMundoAberto.TabIndex = 7;
+            this.LblMundoAberto.Text = "Mundo Aberto (Vice City)";
             // 
             // LblTitulo
             // 
@@ -104,32 +106,49 @@
             this.LblTitulo.Text = "PAINEL DE CONTROLE - LEONIDA";
             this.LblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // LblServidores
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(42, 117);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(197, 18);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Servidor Online (Ping: 34ms)";
+            this.LblServidores.AutoSize = true;
+            this.LblServidores.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblServidores.Location = new System.Drawing.Point(31, 34);
+            this.LblServidores.Name = "LblServidores";
+            this.LblServidores.Size = new System.Drawing.Size(164, 15);
+            this.LblServidores.TabIndex = 5;
+            this.LblServidores.Text = "Servidor Online (Ping: 34ms)";
+            this.LblServidores.Click += new System.EventHandler(this.label2_Click);
             // 
-            // groupBox1
+            // GrpStatusSistema
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.GrpStatusSistema.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.BackColor = System.Drawing.Color.Black;
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.BtnSimularConexao);
-            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.HotPink;
-            this.groupBox1.Location = new System.Drawing.Point(1046, 87);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(247, 231);
-            this.groupBox1.TabIndex = 8;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "PROTOCOLO DE DEPURAÇÃO";
+            this.GrpStatusSistema.BackColor = System.Drawing.Color.Black;
+            this.GrpStatusSistema.Controls.Add(this.BtnCarregarAssets);
+            this.GrpStatusSistema.Controls.Add(this.BtnSimularConexao);
+            this.GrpStatusSistema.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GrpStatusSistema.ForeColor = System.Drawing.Color.HotPink;
+            this.GrpStatusSistema.Location = new System.Drawing.Point(1046, 87);
+            this.GrpStatusSistema.Name = "GrpStatusSistema";
+            this.GrpStatusSistema.Size = new System.Drawing.Size(247, 231);
+            this.GrpStatusSistema.TabIndex = 8;
+            this.GrpStatusSistema.TabStop = false;
+            this.GrpStatusSistema.Text = "PROTOCOLO DE DEPURAÇÃO";
+            // 
+            // BtnCarregarAssets
+            // 
+            this.BtnCarregarAssets.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnCarregarAssets.FlatAppearance.BorderColor = System.Drawing.Color.HotPink;
+            this.BtnCarregarAssets.FlatAppearance.BorderSize = 2;
+            this.BtnCarregarAssets.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.BtnCarregarAssets.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.BtnCarregarAssets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCarregarAssets.Location = new System.Drawing.Point(60, 137);
+            this.BtnCarregarAssets.Name = "BtnCarregarAssets";
+            this.BtnCarregarAssets.Size = new System.Drawing.Size(140, 33);
+            this.BtnCarregarAssets.TabIndex = 1;
+            this.BtnCarregarAssets.Text = "Carregar Assets";
+            this.BtnCarregarAssets.UseVisualStyleBackColor = true;
+            this.BtnCarregarAssets.Click += new System.EventHandler(this.BtnCarregarAssets_Click);
             // 
             // BtnSimularConexao
             // 
@@ -140,41 +159,43 @@
             this.BtnSimularConexao.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
             this.BtnSimularConexao.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.BtnSimularConexao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnSimularConexao.Location = new System.Drawing.Point(15, 58);
+            this.BtnSimularConexao.Location = new System.Drawing.Point(60, 58);
             this.BtnSimularConexao.Name = "BtnSimularConexao";
             this.BtnSimularConexao.Size = new System.Drawing.Size(140, 34);
             this.BtnSimularConexao.TabIndex = 0;
             this.BtnSimularConexao.Text = "Simular Conexão";
             this.BtnSimularConexao.UseVisualStyleBackColor = true;
+            this.BtnSimularConexao.Click += new System.EventHandler(this.BtnSimularConexao_Click);
             // 
-            // button2
+            // PnlHeader
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(30, 137);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.PnlHeader.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PnlHeader.BackgroundImage")));
+            this.PnlHeader.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PnlHeader.Controls.Add(this.GrpStatusSistemas);
+            this.PnlHeader.Controls.Add(this.GrpStatusSistema);
+            this.PnlHeader.Controls.Add(this.LblTitulo);
+            this.PnlHeader.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PnlHeader.Location = new System.Drawing.Point(0, 0);
+            this.PnlHeader.Name = "PnlHeader";
+            this.PnlHeader.Size = new System.Drawing.Size(1305, 626);
+            this.PnlHeader.TabIndex = 9;
             // 
-            // panel1
+            // GrpStatusSistemas
             // 
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.LblTitulo);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.progressBar1);
-            this.panel1.Controls.Add(this.progressBar3);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.progressBar2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1305, 626);
-            this.panel1.TabIndex = 9;
+            this.GrpStatusSistemas.Controls.Add(this.PrgServidores);
+            this.GrpStatusSistemas.Controls.Add(this.LblServidores);
+            this.GrpStatusSistemas.Controls.Add(this.LblMotorGrafico);
+            this.GrpStatusSistemas.Controls.Add(this.PrgMundoAberto);
+            this.GrpStatusSistemas.Controls.Add(this.LblMundoAberto);
+            this.GrpStatusSistemas.Controls.Add(this.PrgMotorGrafico);
+            this.GrpStatusSistemas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GrpStatusSistemas.ForeColor = System.Drawing.Color.HotPink;
+            this.GrpStatusSistemas.Location = new System.Drawing.Point(12, 87);
+            this.GrpStatusSistemas.Name = "GrpStatusSistemas";
+            this.GrpStatusSistemas.Size = new System.Drawing.Size(478, 234);
+            this.GrpStatusSistemas.TabIndex = 9;
+            this.GrpStatusSistemas.TabStop = false;
+            this.GrpStatusSistemas.Text = "Status Sistemas";
             // 
             // FrmDashboard
             // 
@@ -184,31 +205,33 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1305, 626);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.PnlHeader);
             this.ForeColor = System.Drawing.Color.HotPink;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmDashboard";
             this.Text = "Projeto GTA VI";
-            this.groupBox1.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.GrpStatusSistema.ResumeLayout(false);
+            this.PnlHeader.ResumeLayout(false);
+            this.GrpStatusSistemas.ResumeLayout(false);
+            this.GrpStatusSistemas.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ProgressBar progressBar2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ProgressBar progressBar3;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ProgressBar PrgMundoAberto;
+        private System.Windows.Forms.Label LblMotorGrafico;
+        private System.Windows.Forms.ProgressBar PrgMotorGrafico;
+        private System.Windows.Forms.ProgressBar PrgServidores;
+        private System.Windows.Forms.Label LblMundoAberto;
         private System.Windows.Forms.Label LblTitulo;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label LblServidores;
+        private System.Windows.Forms.GroupBox GrpStatusSistema;
+        private System.Windows.Forms.Button BtnCarregarAssets;
         private System.Windows.Forms.Button BtnSimularConexao;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel PnlHeader;
+        private System.Windows.Forms.GroupBox GrpStatusSistemas;
     }
 }
 
