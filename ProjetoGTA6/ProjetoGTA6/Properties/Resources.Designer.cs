@@ -63,6 +63,16 @@ namespace ProjetoGTA6.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gta_banner {
+            get {
+                object obj = ResourceManager.GetObject("gta_banner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gta6logo {
             get {
                 object obj = ResourceManager.GetObject("gta6logo", resourceCulture);
@@ -97,6 +107,36 @@ namespace ProjetoGTA6.Properties {
             get {
                 object obj = ResourceManager.GetObject("logo2", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pantano {
+            get {
+                object obj = ResourceManager.GetObject("pantano", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap praia {
+            get {
+                object obj = ResourceManager.GetObject("praia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Vice_City {
+            get {
+                object obj = ResourceManager.GetObject("Vice_City", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

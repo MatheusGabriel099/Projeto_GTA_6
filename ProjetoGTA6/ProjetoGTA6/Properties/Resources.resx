@@ -124,10 +124,22 @@
   <data name="GTA6Logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GTA6Logo2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gta_banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gta_banner.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pantano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pantano.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="praia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\praia.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vice_City" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vice_City.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

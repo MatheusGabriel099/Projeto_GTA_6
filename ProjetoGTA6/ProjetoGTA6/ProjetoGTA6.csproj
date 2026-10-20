@@ -101,5 +101,17 @@
   <ItemGroup>
     <None Include="Resources\GTA6Logo2.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vice_City.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pantano.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\praia.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gta_banner.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

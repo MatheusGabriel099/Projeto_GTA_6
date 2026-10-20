@@ -30,29 +30,55 @@ namespace ProjetoGTA6
 
         private void BtnSimularConexao_Click(object sender, EventArgs e)
         {
-           
-            // Limpa os valores antigos
-            PrgServidores.Value = 0;
-            PrgMotorGrafico.Value = 0;
 
-            // Simula o carregamento dos sistemas do jogo
+            TxtLogNoticias.AppendText(Environment.NewLine + "[NET] Iniciando teste de estresse nos servidores da Rockstar Games...");
+
+            PrgServidores.Minimum = 0;
+            PrgServidores.Maximum = 100;
+            PrgServidores.Value = 0;
+
+            // 1. Loop que faz a barra encher até 100% durante a simulação
             for (int i = 0; i <= 100; i++)
             {
-                PrgServidores.Value = i; // Atualiza status dos servidores
-                PrgMotorGrafico.Value = i; // Atualiza motor gráfico
-                System.Threading.Thread.Sleep(10); // Pequena pausa para animação visual
+                PrgServidores.Value = i;
+                PrgServidores.Refresh();
+                System.Threading.Thread.Sleep(10);
             }
 
+            TxtLogNoticias.AppendText(Environment.NewLine + "[SUCCESS] Pacotes de rede sincronizados. Latência estável em 34ms.");
+
+            // 2. Abre a mensagem na tela (O código "para" aqui até você fechar)
             MessageBox.Show("Sistemas simulados e sincronizados com sucesso!", "Painel Leonida");
+
+            // =========================================================================
+            // TRUQUE: As linhas abaixo só executam DEPOIS que você fecha o MessageBox!
+            // =========================================================================
+
+            // 3. Reseta os valores das ProgressBars para o padrão inicial da imagem
+            PrgServidores.Value = 50;       // Servidor Online volta para 50%
+            PrgMotorGrafico.Value = 65;     // Motor Gráfico volta para 65%
+            PrgMundoAberto.Value = 50;      // Mundo Aberto volta para 50%
+
+            // 4. Adiciona um aviso no painel de controle confirmando o reset
+            TxtLogNoticias.AppendText(Environment.NewLine + "[SYSTEM] Simulação finalizada. Valores retornados ao padrão de telemetria.");
         }
 
         private void BtnCarregarAssets_Click(object sender, EventArgs e)
         {
-            // Cria e abre a nova janela do mapa por cima da principal
             using (FrmLeonida telaMapa = new FrmLeonida())
             {
                 telaMapa.ShowDialog(); // Abre como uma janela bloqueante (foca nela)
             }
         }
+
+        private void TxtLogNoticias_TextChanged(object sender, EventArgs e)
+        {
+            TxtLogNoticias.BackColor = Color.FromArgb(20, 20, 28); // Fundo escuro
+            TxtLogNoticias.ForeColor = Color.FromArgb(0, 255, 127); // Letras verdes
+            TxtLogNoticias.Font = new Font("Consolas", 10);
+            TxtLogNoticias.Dock = DockStyle.Bottom; // COLA E ALINHA NO RODAPÉ SOZINHO!
+            TxtLogNoticias.Height = 120; // Altura do console
+        }
     }
+
 }

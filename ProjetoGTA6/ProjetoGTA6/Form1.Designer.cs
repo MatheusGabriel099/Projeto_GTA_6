@@ -41,6 +41,7 @@
             this.BtnSimularConexao = new System.Windows.Forms.Button();
             this.PnlHeader = new System.Windows.Forms.Panel();
             this.GrpStatusSistemas = new System.Windows.Forms.GroupBox();
+            this.TxtLogNoticias = new System.Windows.Forms.TextBox();
             this.GrpStatusSistema.SuspendLayout();
             this.PnlHeader.SuspendLayout();
             this.GrpStatusSistemas.SuspendLayout();
@@ -51,8 +52,8 @@
             this.PrgMundoAberto.Location = new System.Drawing.Point(27, 137);
             this.PrgMundoAberto.Name = "PrgMundoAberto";
             this.PrgMundoAberto.Size = new System.Drawing.Size(168, 23);
-            this.PrgMundoAberto.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.PrgMundoAberto.TabIndex = 3;
+            this.PrgMundoAberto.Value = 50;
             // 
             // LblMotorGrafico
             // 
@@ -69,15 +70,15 @@
             this.PrgMotorGrafico.Location = new System.Drawing.Point(234, 58);
             this.PrgMotorGrafico.Name = "PrgMotorGrafico";
             this.PrgMotorGrafico.Size = new System.Drawing.Size(168, 23);
-            this.PrgMotorGrafico.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.PrgMotorGrafico.TabIndex = 4;
+            this.PrgMotorGrafico.Value = 65;
             // 
             // PrgServidores
             // 
             this.PrgServidores.Location = new System.Drawing.Point(27, 58);
             this.PrgServidores.Name = "PrgServidores";
             this.PrgServidores.Size = new System.Drawing.Size(168, 23);
-            this.PrgServidores.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.PrgServidores.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.PrgServidores.TabIndex = 2;
             this.PrgServidores.Value = 50;
             // 
@@ -171,6 +172,7 @@
             // 
             this.PnlHeader.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PnlHeader.BackgroundImage")));
             this.PnlHeader.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PnlHeader.Controls.Add(this.TxtLogNoticias);
             this.PnlHeader.Controls.Add(this.GrpStatusSistemas);
             this.PnlHeader.Controls.Add(this.GrpStatusSistema);
             this.PnlHeader.Controls.Add(this.LblTitulo);
@@ -197,6 +199,21 @@
             this.GrpStatusSistemas.TabStop = false;
             this.GrpStatusSistemas.Text = "Status Sistemas";
             // 
+            // TxtLogNoticias
+            // 
+            this.TxtLogNoticias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(28)))));
+            this.TxtLogNoticias.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtLogNoticias.ForeColor = System.Drawing.Color.SpringGreen;
+            this.TxtLogNoticias.Location = new System.Drawing.Point(3, 507);
+            this.TxtLogNoticias.Multiline = true;
+            this.TxtLogNoticias.Name = "TxtLogNoticias";
+            this.TxtLogNoticias.ReadOnly = true;
+            this.TxtLogNoticias.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.TxtLogNoticias.Size = new System.Drawing.Size(1299, 119);
+            this.TxtLogNoticias.TabIndex = 10;
+            this.TxtLogNoticias.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TxtLogNoticias.TextChanged += new System.EventHandler(this.TxtLogNoticias_TextChanged);
+            // 
             // FrmDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -212,6 +229,7 @@
             this.Text = "Projeto GTA VI";
             this.GrpStatusSistema.ResumeLayout(false);
             this.PnlHeader.ResumeLayout(false);
+            this.PnlHeader.PerformLayout();
             this.GrpStatusSistemas.ResumeLayout(false);
             this.GrpStatusSistemas.PerformLayout();
             this.ResumeLayout(false);
@@ -232,6 +250,7 @@
         private System.Windows.Forms.Button BtnSimularConexao;
         private System.Windows.Forms.Panel PnlHeader;
         private System.Windows.Forms.GroupBox GrpStatusSistemas;
+        private System.Windows.Forms.TextBox TxtLogNoticias;
     }
 }
 

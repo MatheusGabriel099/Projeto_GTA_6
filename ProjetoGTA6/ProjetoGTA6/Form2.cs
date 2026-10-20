@@ -17,16 +17,21 @@ namespace ProjetoGTA6
             InitializeComponent();
         }
 
-
-
         private void FrmLeonida_Load(object sender, EventArgs e)
         {
-
+            // Ativa o primeiro botão por padrão assim que a tela abre
+            RdbViceCity.Checked = true;
         }
 
         private void CboDistritos_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+
+        private void RdbViceCity_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
