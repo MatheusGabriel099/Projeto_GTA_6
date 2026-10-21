@@ -40,8 +40,8 @@
             this.BtnCarregarAssets = new System.Windows.Forms.Button();
             this.BtnSimularConexao = new System.Windows.Forms.Button();
             this.PnlHeader = new System.Windows.Forms.Panel();
-            this.GrpStatusSistemas = new System.Windows.Forms.GroupBox();
             this.TxtLogNoticias = new System.Windows.Forms.TextBox();
+            this.GrpStatusSistemas = new System.Windows.Forms.GroupBox();
             this.GrpStatusSistema.SuspendLayout();
             this.PnlHeader.SuspendLayout();
             this.GrpStatusSistemas.SuspendLayout();
@@ -182,6 +182,21 @@
             this.PnlHeader.Size = new System.Drawing.Size(1305, 626);
             this.PnlHeader.TabIndex = 9;
             // 
+            // TxtLogNoticias
+            // 
+            this.TxtLogNoticias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(28)))));
+            this.TxtLogNoticias.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtLogNoticias.ForeColor = System.Drawing.Color.SpringGreen;
+            this.TxtLogNoticias.Location = new System.Drawing.Point(6, 485);
+            this.TxtLogNoticias.Multiline = true;
+            this.TxtLogNoticias.Name = "TxtLogNoticias";
+            this.TxtLogNoticias.ReadOnly = true;
+            this.TxtLogNoticias.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.TxtLogNoticias.Size = new System.Drawing.Size(1299, 141);
+            this.TxtLogNoticias.TabIndex = 10;
+            this.TxtLogNoticias.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TxtLogNoticias.TextChanged += new System.EventHandler(this.TxtLogNoticias_TextChanged);
+            // 
             // GrpStatusSistemas
             // 
             this.GrpStatusSistemas.Controls.Add(this.PrgServidores);
@@ -198,21 +213,6 @@
             this.GrpStatusSistemas.TabIndex = 9;
             this.GrpStatusSistemas.TabStop = false;
             this.GrpStatusSistemas.Text = "Status Sistemas";
-            // 
-            // TxtLogNoticias
-            // 
-            this.TxtLogNoticias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(28)))));
-            this.TxtLogNoticias.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtLogNoticias.ForeColor = System.Drawing.Color.SpringGreen;
-            this.TxtLogNoticias.Location = new System.Drawing.Point(3, 507);
-            this.TxtLogNoticias.Multiline = true;
-            this.TxtLogNoticias.Name = "TxtLogNoticias";
-            this.TxtLogNoticias.ReadOnly = true;
-            this.TxtLogNoticias.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TxtLogNoticias.Size = new System.Drawing.Size(1299, 119);
-            this.TxtLogNoticias.TabIndex = 10;
-            this.TxtLogNoticias.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TxtLogNoticias.TextChanged += new System.EventHandler(this.TxtLogNoticias_TextChanged);
             // 
             // FrmDashboard
             // 
