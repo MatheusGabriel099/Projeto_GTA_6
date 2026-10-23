@@ -37,7 +37,7 @@
             this.LblTitulo = new System.Windows.Forms.Label();
             this.LblServidores = new System.Windows.Forms.Label();
             this.GrpStatusSistema = new System.Windows.Forms.GroupBox();
-            this.BtnCarregarAssets = new System.Windows.Forms.Button();
+            this.BtnCarregarMapas = new System.Windows.Forms.Button();
             this.BtnSimularConexao = new System.Windows.Forms.Button();
             this.PnlHeader = new System.Windows.Forms.Panel();
             this.TxtLogNoticias = new System.Windows.Forms.TextBox();
@@ -52,6 +52,7 @@
             this.PrgMundoAberto.Location = new System.Drawing.Point(27, 137);
             this.PrgMundoAberto.Name = "PrgMundoAberto";
             this.PrgMundoAberto.Size = new System.Drawing.Size(168, 23);
+            this.PrgMundoAberto.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.PrgMundoAberto.TabIndex = 3;
             this.PrgMundoAberto.Value = 50;
             // 
@@ -70,6 +71,7 @@
             this.PrgMotorGrafico.Location = new System.Drawing.Point(234, 58);
             this.PrgMotorGrafico.Name = "PrgMotorGrafico";
             this.PrgMotorGrafico.Size = new System.Drawing.Size(168, 23);
+            this.PrgMotorGrafico.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.PrgMotorGrafico.TabIndex = 4;
             this.PrgMotorGrafico.Value = 65;
             // 
@@ -78,7 +80,7 @@
             this.PrgServidores.Location = new System.Drawing.Point(27, 58);
             this.PrgServidores.Name = "PrgServidores";
             this.PrgServidores.Size = new System.Drawing.Size(168, 23);
-            this.PrgServidores.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.PrgServidores.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.PrgServidores.TabIndex = 2;
             this.PrgServidores.Value = 50;
             // 
@@ -123,7 +125,7 @@
             this.GrpStatusSistema.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.GrpStatusSistema.BackColor = System.Drawing.Color.Black;
-            this.GrpStatusSistema.Controls.Add(this.BtnCarregarAssets);
+            this.GrpStatusSistema.Controls.Add(this.BtnCarregarMapas);
             this.GrpStatusSistema.Controls.Add(this.BtnSimularConexao);
             this.GrpStatusSistema.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GrpStatusSistema.ForeColor = System.Drawing.Color.HotPink;
@@ -134,22 +136,22 @@
             this.GrpStatusSistema.TabStop = false;
             this.GrpStatusSistema.Text = "PROTOCOLO DE DEPURAÇÃO";
             // 
-            // BtnCarregarAssets
+            // BtnCarregarMapas
             // 
-            this.BtnCarregarAssets.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.BtnCarregarMapas.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnCarregarAssets.FlatAppearance.BorderColor = System.Drawing.Color.HotPink;
-            this.BtnCarregarAssets.FlatAppearance.BorderSize = 2;
-            this.BtnCarregarAssets.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
-            this.BtnCarregarAssets.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.BtnCarregarAssets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnCarregarAssets.Location = new System.Drawing.Point(60, 137);
-            this.BtnCarregarAssets.Name = "BtnCarregarAssets";
-            this.BtnCarregarAssets.Size = new System.Drawing.Size(140, 33);
-            this.BtnCarregarAssets.TabIndex = 1;
-            this.BtnCarregarAssets.Text = "Carregar Assets";
-            this.BtnCarregarAssets.UseVisualStyleBackColor = true;
-            this.BtnCarregarAssets.Click += new System.EventHandler(this.BtnCarregarAssets_Click);
+            this.BtnCarregarMapas.FlatAppearance.BorderColor = System.Drawing.Color.HotPink;
+            this.BtnCarregarMapas.FlatAppearance.BorderSize = 2;
+            this.BtnCarregarMapas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
+            this.BtnCarregarMapas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.BtnCarregarMapas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCarregarMapas.Location = new System.Drawing.Point(60, 137);
+            this.BtnCarregarMapas.Name = "BtnCarregarMapas";
+            this.BtnCarregarMapas.Size = new System.Drawing.Size(140, 33);
+            this.BtnCarregarMapas.TabIndex = 1;
+            this.BtnCarregarMapas.Text = "Carregar Mapas";
+            this.BtnCarregarMapas.UseVisualStyleBackColor = true;
+            this.BtnCarregarMapas.Click += new System.EventHandler(this.BtnCarregarAssets_Click);
             // 
             // BtnSimularConexao
             // 
@@ -187,14 +189,15 @@
             this.TxtLogNoticias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(28)))));
             this.TxtLogNoticias.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtLogNoticias.ForeColor = System.Drawing.Color.SpringGreen;
-            this.TxtLogNoticias.Location = new System.Drawing.Point(6, 485);
+            this.TxtLogNoticias.Location = new System.Drawing.Point(0, 495);
             this.TxtLogNoticias.Multiline = true;
             this.TxtLogNoticias.Name = "TxtLogNoticias";
             this.TxtLogNoticias.ReadOnly = true;
             this.TxtLogNoticias.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TxtLogNoticias.Size = new System.Drawing.Size(1299, 141);
+            this.TxtLogNoticias.Size = new System.Drawing.Size(1305, 131);
             this.TxtLogNoticias.TabIndex = 10;
             this.TxtLogNoticias.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TxtLogNoticias.Visible = false;
             this.TxtLogNoticias.TextChanged += new System.EventHandler(this.TxtLogNoticias_TextChanged);
             // 
             // GrpStatusSistemas
@@ -226,7 +229,7 @@
             this.ForeColor = System.Drawing.Color.HotPink;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmDashboard";
-            this.Text = "Projeto GTA VI";
+            this.Text = "Painel de Controle - Leonida";
             this.GrpStatusSistema.ResumeLayout(false);
             this.PnlHeader.ResumeLayout(false);
             this.PnlHeader.PerformLayout();
@@ -246,7 +249,7 @@
         private System.Windows.Forms.Label LblTitulo;
         private System.Windows.Forms.Label LblServidores;
         private System.Windows.Forms.GroupBox GrpStatusSistema;
-        private System.Windows.Forms.Button BtnCarregarAssets;
+        private System.Windows.Forms.Button BtnCarregarMapas;
         private System.Windows.Forms.Button BtnSimularConexao;
         private System.Windows.Forms.Panel PnlHeader;
         private System.Windows.Forms.GroupBox GrpStatusSistemas;

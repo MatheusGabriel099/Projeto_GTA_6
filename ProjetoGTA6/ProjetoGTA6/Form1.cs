@@ -52,7 +52,7 @@ namespace ProjetoGTA6
             // Loop que faz a barra encher até 100% durante a simulação
             for (int i = 0; i <= 100; i++)
             {
-                //Modifica o preenchimento da barra para subir junto com o contador.
+                // Modifica o preenchimento da barra para subir junto com o contador.
                 PrgServidores.Value = i;
                 PrgMotorGrafico.Value = i;
                 PrgMundoAberto.Value = i;
@@ -62,14 +62,22 @@ namespace ProjetoGTA6
                 PrgMotorGrafico.Refresh();
                 PrgMundoAberto.Refresh();
 
-                //Gera uma mini pausa de 10 milissegundos.
+               
+
+                // Gera uma mini pausa de 10 milissegundos.
                 System.Threading.Thread.Sleep(10);
             }
 
-            TxtLogNoticias.AppendText(Environment.NewLine + "[SUCCESS] Pacotes de rede sincronizados. Latência estável em 34ms.");
+            // Adiciona um aviso no painel de controle confirmando o sucesso da sincronização
+            TxtLogNoticias.AppendText(Environment.NewLine + "[SUCESSO] Pacotes de rede sincronizados. Latência estável em 34ms.");
 
             // Abre a mensagem na tela (O código "para" aqui até você fechar)
             MessageBox.Show("Sistemas simulados e sincronizados com sucesso!", "Painel Leonida");
+
+            // Quando o usuário fecha o aviso, a barra de progresso vai parar em determinado valor 
+            PrgServidores.Style = ProgressBarStyle.Blocks;
+            PrgMotorGrafico.Style = ProgressBarStyle.Blocks;
+            PrgMundoAberto.Style = ProgressBarStyle.Blocks;
 
             // Reseta os valores das ProgressBars para o padrão inicial da imagem
             PrgServidores.Value = 50; // Servidor Online volta para 50%
@@ -77,7 +85,9 @@ namespace ProjetoGTA6
             PrgMundoAberto.Value = 50; // Mundo Aberto volta para 50%
 
             // Adiciona um aviso no painel de controle confirmando o reset
-            TxtLogNoticias.AppendText(Environment.NewLine + "[SYSTEM] Simulação finalizada. Valores retornados ao padrão de telemetria.");
+            TxtLogNoticias.AppendText(Environment.NewLine + "[SISTEMA] Simulação finalizada. Valores retornados ao padrão de telemetria.");
+
+            TxtLogNoticias.Visible = true;
         }
 
         private void BtnCarregarAssets_Click(object sender, EventArgs e)

@@ -43,7 +43,6 @@
             // TxtDetalhesDistrito
             // 
             this.TxtDetalhesDistrito.BackColor = System.Drawing.Color.Black;
-            this.TxtDetalhesDistrito.Enabled = false;
             this.TxtDetalhesDistrito.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtDetalhesDistrito.ForeColor = System.Drawing.Color.HotPink;
             this.TxtDetalhesDistrito.Location = new System.Drawing.Point(1070, 212);
@@ -57,9 +56,9 @@
             // PicMapa
             // 
             this.PicMapa.BackColor = System.Drawing.Color.Transparent;
-            this.PicMapa.Location = new System.Drawing.Point(12, 12);
+            this.PicMapa.Location = new System.Drawing.Point(12, 22);
             this.PicMapa.Name = "PicMapa";
-            this.PicMapa.Size = new System.Drawing.Size(1052, 541);
+            this.PicMapa.Size = new System.Drawing.Size(1052, 531);
             this.PicMapa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicMapa.TabIndex = 2;
             this.PicMapa.TabStop = false;
