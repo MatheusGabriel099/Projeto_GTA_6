@@ -94,12 +94,12 @@ namespace ProjetoGTA6
         {
             this.Hide(); // Esconde a Tela Principal
 
-            using (FrmLeonida telaMapa = new FrmLeonida()) // Abre a tela Mapas por cima
+            using (FrmLeonida telaMapa = new FrmLeonida())
             {
                 telaMapa.ShowDialog(); // Abre a tela Mapas
             }
 
-            this.Show(); // Quando o usuário clicar no botão "Voltar", o mapa trazendo a tela principal                   
+            this.Show(); // Quando o usuário clicar no botão "Voltar", volta para a tela principal                  
         }
 
         private void TxtLogNoticias_TextChanged(object sender, EventArgs e)
@@ -109,6 +109,18 @@ namespace ProjetoGTA6
             TxtLogNoticias.Font = new Font("Consolas", 10); //Altera o estilo do texto do console de logs para a fonte Consolas, tamanho 10.
             TxtLogNoticias.Dock = DockStyle.Bottom; // COLA E ALINHA NO RODAPÉ SOZINHO!
             TxtLogNoticias.Height = 130; // Altura do console
+        }
+
+        private void Btn_Trailer_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Esconde a Tela Principal
+
+            using (Frm_Trailer Trailer = new Frm_Trailer())
+            {
+                Trailer.ShowDialog(); // Abre a tela de Trailer
+            }
+
+            this.Show();
         }
     }
 

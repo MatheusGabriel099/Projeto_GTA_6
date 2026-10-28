@@ -10,3 +10,9 @@ C:\Users\DB\Desktop\Projeto_GTA_6\ProjetoGTA6\ProjetoGTA6\obj\Debug\ProjetoGTA6.
 C:\Users\DB\Desktop\Projeto_GTA_6\ProjetoGTA6\ProjetoGTA6\obj\Debug\ProjetoGTA6.exe.config
 C:\Users\DB\Desktop\Projeto_GTA_6\ProjetoGTA6\ProjetoGTA6\obj\Debug\ProjetoGTA6.FrmDashboard.resources
 C:\Users\DB\Desktop\Projeto_GTA_6\ProjetoGTA6\ProjetoGTA6\obj\Debug\ProjetoGTA6.FrmLeonida.resources
+C:\Users\DB\Desktop\Projeto_GTA_6\ProjetoGTA6\ProjetoGTA6\bin\Debug\Interop.WMPLib.dll
+C:\Users\DB\Desktop\Projeto_GTA_6\ProjetoGTA6\ProjetoGTA6\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\DB\Desktop\Projeto_GTA_6\ProjetoGTA6\ProjetoGTA6\obj\Debug\Interop.WMPLib.dll
+C:\Users\DB\Desktop\Projeto_GTA_6\ProjetoGTA6\ProjetoGTA6\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\DB\Desktop\Projeto_GTA_6\ProjetoGTA6\ProjetoGTA6\obj\Debug\ProjetoGTA6.csproj.ResolveComReference.cache
+C:\Users\DB\Desktop\Projeto_GTA_6\ProjetoGTA6\ProjetoGTA6\obj\Debug\ProjetoGTA6.Frm_Trailer.resources

@@ -37,6 +37,7 @@
             this.LblTitulo = new System.Windows.Forms.Label();
             this.LblServidores = new System.Windows.Forms.Label();
             this.GrpStatusSistema = new System.Windows.Forms.GroupBox();
+            this.Btn_Trailer = new System.Windows.Forms.Button();
             this.BtnCarregarMapas = new System.Windows.Forms.Button();
             this.BtnSimularConexao = new System.Windows.Forms.Button();
             this.PnlHeader = new System.Windows.Forms.Panel();
@@ -125,6 +126,7 @@
             this.GrpStatusSistema.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.GrpStatusSistema.BackColor = System.Drawing.Color.Black;
+            this.GrpStatusSistema.Controls.Add(this.Btn_Trailer);
             this.GrpStatusSistema.Controls.Add(this.BtnCarregarMapas);
             this.GrpStatusSistema.Controls.Add(this.BtnSimularConexao);
             this.GrpStatusSistema.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -136,6 +138,21 @@
             this.GrpStatusSistema.TabStop = false;
             this.GrpStatusSistema.Text = "PROTOCOLO DE DEPURAÇÃO";
             // 
+            // Btn_Trailer
+            // 
+            this.Btn_Trailer.FlatAppearance.BorderColor = System.Drawing.Color.HotPink;
+            this.Btn_Trailer.FlatAppearance.BorderSize = 2;
+            this.Btn_Trailer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
+            this.Btn_Trailer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.Btn_Trailer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Trailer.Location = new System.Drawing.Point(60, 161);
+            this.Btn_Trailer.Name = "Btn_Trailer";
+            this.Btn_Trailer.Size = new System.Drawing.Size(140, 34);
+            this.Btn_Trailer.TabIndex = 2;
+            this.Btn_Trailer.Text = "Assistir ao Trailer";
+            this.Btn_Trailer.UseVisualStyleBackColor = true;
+            this.Btn_Trailer.Click += new System.EventHandler(this.Btn_Trailer_Click);
+            // 
             // BtnCarregarMapas
             // 
             this.BtnCarregarMapas.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -145,9 +162,9 @@
             this.BtnCarregarMapas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
             this.BtnCarregarMapas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.BtnCarregarMapas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnCarregarMapas.Location = new System.Drawing.Point(60, 137);
+            this.BtnCarregarMapas.Location = new System.Drawing.Point(60, 97);
             this.BtnCarregarMapas.Name = "BtnCarregarMapas";
-            this.BtnCarregarMapas.Size = new System.Drawing.Size(140, 33);
+            this.BtnCarregarMapas.Size = new System.Drawing.Size(140, 34);
             this.BtnCarregarMapas.TabIndex = 1;
             this.BtnCarregarMapas.Text = "Carregar Mapas";
             this.BtnCarregarMapas.UseVisualStyleBackColor = true;
@@ -162,7 +179,7 @@
             this.BtnSimularConexao.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
             this.BtnSimularConexao.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.BtnSimularConexao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnSimularConexao.Location = new System.Drawing.Point(60, 58);
+            this.BtnSimularConexao.Location = new System.Drawing.Point(60, 34);
             this.BtnSimularConexao.Name = "BtnSimularConexao";
             this.BtnSimularConexao.Size = new System.Drawing.Size(140, 34);
             this.BtnSimularConexao.TabIndex = 0;
@@ -197,7 +214,6 @@
             this.TxtLogNoticias.Size = new System.Drawing.Size(1305, 131);
             this.TxtLogNoticias.TabIndex = 10;
             this.TxtLogNoticias.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TxtLogNoticias.Visible = false;
             this.TxtLogNoticias.TextChanged += new System.EventHandler(this.TxtLogNoticias_TextChanged);
             // 
             // GrpStatusSistemas
@@ -254,6 +270,7 @@
         private System.Windows.Forms.Panel PnlHeader;
         private System.Windows.Forms.GroupBox GrpStatusSistemas;
         private System.Windows.Forms.TextBox TxtLogNoticias;
+        private System.Windows.Forms.Button Btn_Trailer;
     }
 }
 
