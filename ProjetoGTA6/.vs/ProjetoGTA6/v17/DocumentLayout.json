@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\DB\\Desktop\\Projeto_GTA_6\\ProjetoGTA6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67CFC082-36C0-43DF-A633-8E2F3D0A28B6}|ProjetoGTA6\\ProjetoGTA6.csproj|c:\\users\\db\\desktop\\projeto_gta_6\\projetogta6\\projetogta6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{67CFC082-36C0-43DF-A633-8E2F3D0A28B6}|ProjetoGTA6\\ProjetoGTA6.csproj|solutionrelative:projetogta6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67CFC082-36C0-43DF-A633-8E2F3D0A28B6}|ProjetoGTA6\\ProjetoGTA6.csproj|C:\\Users\\DB\\Desktop\\Projeto_GTA_6\\ProjetoGTA6\\projetogta6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67CFC082-36C0-43DF-A633-8E2F3D0A28B6}|ProjetoGTA6\\ProjetoGTA6.csproj|solutionrelative:projetogta6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CFC082-36C0-43DF-A633-8E2F3D0A28B6}|ProjetoGTA6\\ProjetoGTA6.csproj|c:\\users\\db\\desktop\\projeto_gta_6\\projetogta6\\projetogta6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{67CFC082-36C0-43DF-A633-8E2F3D0A28B6}|ProjetoGTA6\\ProjetoGTA6.csproj|solutionrelative:projetogta6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67CFC082-36C0-43DF-A633-8E2F3D0A28B6}|ProjetoGTA6\\ProjetoGTA6.csproj|C:\\Users\\DB\\Desktop\\Projeto_GTA_6\\ProjetoGTA6\\projetogta6\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Projeto_GTA_6\\ProjetoGTA6\\ProjetoGTA6\\Form1.cs",
               "RelativeDocumentMoniker": "ProjetoGTA6\\Form1.cs",
@@ -43,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\DB\\Desktop\\Projeto_GTA_6\\ProjetoGTA6\\ProjetoGTA6\\Form1.cs",
               "RelativeDocumentMoniker": "ProjetoGTA6\\Form1.cs",
               "ToolTip": "C:\\Users\\DB\\Desktop\\Projeto_GTA_6\\ProjetoGTA6\\ProjetoGTA6\\Form1.cs",
               "RelativeToolTip": "ProjetoGTA6\\Form1.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAxwFkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-17T00:22:05.045Z",
               "IsPinned": true,
@@ -65,8 +65,7 @@
               "RelativeToolTip": "ProjetoGTA6\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T22:34:18.758Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "ViewState": "AgIAABYAAAAAAAAAAAAgwDoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T22:37:36.689Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             }
           ]
         }
